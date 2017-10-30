@@ -134,8 +134,8 @@ A section definition **may** also contain additional variable components such
 as its **identifier** and additional modifiers.
 
 > **NOTE**: There are two special sections that are recognized by their
-> position in the document instead of a keyword: The [Metadata section]() and
-> the [API Name & Overview section](). Refer to the respective section entry
+> position in the document instead of a keyword: The [Metadata section](#def-metadata-section) and
+> the [API Name & Overview section](#def-api-name-section). Refer to the respective section entry
 > for details on its definition.
 
 #### Example: Header-defined sections
@@ -149,7 +149,7 @@ as its **identifier** and additional modifiers.
      ...
 
 
-> **NOTE:** While this specification uses "atx" -style headers (using `#`s)
+> **NOTE:** While this specification uses "atx"-style headers (using `#`s)
 >  you can also use "Setext" [header syntax][] interchangeably:
 >
 >     <keyword>
@@ -977,11 +977,11 @@ follows:
 Where:
 
 + `<parameter name>` is the parameter name as written in
-  [Resource Section](#ResourceSection)'s URI (e.g. "id").
+  [Resource Section](#def-resource-section)'s URI (e.g. "id").
 + `<description>` is any **optional** Markdown-formatted description of the
   parameter.
 + `<additional description>` is any additional **optional** Markdown-formatted
-  [description](#SectionDescription) of the parameter.
+  [description](#def-description) of the parameter.
 + `<default value>` is an **optional** default value of the parameter – a value
   that is used when no value is explicitly set (optional parameters only).
 + `<example value>` is an **optional** example value of the parameter (e.g. `1234`).
